@@ -1,0 +1,6 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(75, 193, 248), transparent);
+  padding-top: 20px;
+}
