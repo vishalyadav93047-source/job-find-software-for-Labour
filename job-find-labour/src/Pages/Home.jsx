@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Mainnav from '../Components/Mainnav'
 import Platform from '../Components/Platform'
+import Footer from '../Components/Footer'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
 
     <Mainnav/>
     <Platform/>
+    <Footer/>
     </div>
     </>
   )
