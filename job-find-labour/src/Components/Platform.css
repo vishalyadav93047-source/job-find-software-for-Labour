@@ -1,0 +1,76 @@
+.plstform{
+    margin-top: -20px;
+}
+
+.plstform img{
+    display: flex;
+    border-radius: 10px;
+    /* background-color: black; */
+}
+.plstformtext{
+    height: 200px;
+    width: 500px;
+    margin-top: -240px;
+    color: white;
+    margin-left: 50px;
+    background-color: black;
+    /* border: 2px solid black; */
+    
+}
+
+.plstformtext1 h1{
+    margin-bottom: 8px;
+}
+
+.plstformtext1 h2{
+    margin-bottom: 8px;
+    color: rgb(223, 223, 78);
+}
+
+.plstformbutton{
+    height: 50px;
+    width: 500px;
+    /* margin-left: 50px; */
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.button1{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgb(75, 193, 248) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 3px;
+    border: none;
+    margin-right: 8px;
+}
+
+.button1:hover{
+    color: rgb(75, 193, 248);
+    background-color: white;
+}
+
+
+
+.button2{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 3px;
+     border: none;
+}
+.button2:hover{
+    color: white;
+    background-color: rgb(75, 193, 248);
+}
+
+

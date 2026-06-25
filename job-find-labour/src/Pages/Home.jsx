@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Mainnav from '../Components/Mainnav'
+import Platform from '../Components/Platform'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
     <div className='hero'>
 
     <Mainnav/>
+    <Platform/>
     </div>
     </>
   )
