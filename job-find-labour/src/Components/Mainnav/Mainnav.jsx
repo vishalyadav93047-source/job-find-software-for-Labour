@@ -2,7 +2,7 @@ import React from 'react'
 import "./Mainnav.css"
 import { FaPhone } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
-import logoo from "../assets/logoo.png";
+import logoo from "../../assets/logoo.png"
 
 function Mainnav() {
   return (

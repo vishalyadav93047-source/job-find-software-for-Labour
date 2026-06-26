@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Platform.css"
-import imagepro from "../assets/imagepro.png";
+import imagepro from "../../assets/imagepro.png"
 
 function Platform() {
   return (

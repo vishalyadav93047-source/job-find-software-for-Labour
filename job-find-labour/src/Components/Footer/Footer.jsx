@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import image from "../assets/image.png"
+import image from "../../assets/image.png"
 import { TfiInstagram } from "react-icons/tfi";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";

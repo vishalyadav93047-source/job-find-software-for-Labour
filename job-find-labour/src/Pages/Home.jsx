@@ -1,17 +1,18 @@
 import React from 'react'
 import "./Home.css"
-import Mainnav from '../Components/Mainnav'
-import Platform from '../Components/Platform'
-import Footer from '../Components/Footer'
+import Mainnav from '../Components/Mainnav/Mainnav'
+import Platform from '../Components/Platform/Platform'
+import Footer from '../Components/Footer/Footer'
+
 
 function Home() {
   return (
     <>
     <div className='hero'>
 
-    <Mainnav/>
-    <Platform/>
-    <Footer/>
+   <Mainnav/>
+   <Platform/>
+   <Footer/>
     </div>
     </>
   )
