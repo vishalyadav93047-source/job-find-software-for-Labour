@@ -51,10 +51,10 @@ function Footer() {
             <p className="Footer-text">Job Find Labour</p>
 
             <div className="social-icons">
-               <div className="icon"><RiFacebookFill /></div>
-               <div className="icon"><TfiInstagram /></div>
-               <div className="icon"><CiTwitter /></div>
-               <div className="icon"><FaGithub /></div>
+               <div className="icon1"><RiFacebookFill /></div>
+               <div className="icon2"><TfiInstagram /></div>
+               <div className="icon3"><CiTwitter /></div>
+               <div className="icon4"><FaGithub /></div>
             </div>
          </div>
       </>

@@ -9,8 +9,8 @@ function Platform() {
             <img src={imagepro} alt="imagepro" height="300px" width="100%"/>
 
            
-    </div>
-    <div className='plstformtext'>
+    
+    <div className='plstformtext'></div>
             <div className='plstformtext1'>
               <h1>Find Skilled Labour</h1>
               <h2>AnyTime, AnyWhere</h2>

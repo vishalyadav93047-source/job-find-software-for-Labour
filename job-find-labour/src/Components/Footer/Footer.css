@@ -77,7 +77,11 @@
 
 
 
-.icon {
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
     height: 40px;
     width: 40px;
     background: #0f3a4a;
@@ -91,10 +95,31 @@
 
 }
 
-.icon:hover {
+.icon1:hover {
 
     transition: 0.3s;
-    background-color: rgb(75, 193, 248);
+    background-color: #1877F2;
+    transform: translateY(-5px);
+}
+
+.icon2:hover {
+
+    transition: 0.3s;
+    background-color:  #d11c6d;
+    transform: translateY(-5px);
+}
+
+.icon3:hover {
+
+    transition: 0.3s;
+    background-color: #1DA1F2;
+    transform: translateY(-5px);
+}
+
+.icon4:hover {
+
+    transition: 0.3s;
+    background-color: black;
     transform: translateY(-5px);
 }
 

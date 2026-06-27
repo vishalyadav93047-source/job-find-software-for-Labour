@@ -3,6 +3,7 @@ import "./Home.css"
 import Mainnav from '../Components/Mainnav/Mainnav'
 import Platform from '../Components/Platform/Platform'
 import Footer from '../Components/Footer/Footer'
+import Job from '../Components/Jobs/job'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
 
    <Mainnav/>
    <Platform/>
+   <Job/>
    <Footer/>
     </div>
     </>
