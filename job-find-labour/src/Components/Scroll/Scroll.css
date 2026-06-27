@@ -1,0 +1,49 @@
+.Scroll{
+    width: 100%;
+    overflow: hidden;
+    /* background-color: white; */
+    height: 230px;
+    margin-top: 90px;
+    margin-bottom: -30px;
+}
+
+.Scroll1{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: marquee 15s linear infinite;
+    
+}
+
+.Scroll1:hover{
+    animation-play-state: paused;
+}
+
+.scroll2{
+    width: 250px;
+    height: 78px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #e6e9f0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 20px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.06);
+    /* margin-bottom: 120px; */
+    font-size: 18px;
+    color: #7B838A;
+    
+}
+
+
+
+
+@keyframes marquee {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
