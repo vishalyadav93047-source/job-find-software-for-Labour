@@ -6,8 +6,9 @@
 }
 
 .jobs-page{
-    width:90%;
+    /* width:90%; */
     margin:60px auto;
+    margin-top: 150px;
     
     
     
@@ -29,6 +30,7 @@
     scroll-behavior: smooth;
     padding-right: 10px;
     
+    
 }
 
 .job-card{
@@ -37,6 +39,7 @@
     padding:20px;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
     transition:.3s;
+   
 }
 
 .job-card:hover{

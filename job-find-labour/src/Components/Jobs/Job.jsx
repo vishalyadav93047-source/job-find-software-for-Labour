@@ -58,6 +58,7 @@ function Job() {
       salary: "₹19,000/month",
       type: "Full Time",
     },
+    
   ];
 
   return (

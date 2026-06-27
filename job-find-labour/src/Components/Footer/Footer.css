@@ -78,7 +78,7 @@
 
 
 
-.icon1,
+.icon0,
 .icon2,
 .icon3,
 .icon4 {
@@ -95,7 +95,7 @@
 
 }
 
-.icon1:hover {
+.icon0:hover {
 
     transition: 0.3s;
     background-color: #1877F2;

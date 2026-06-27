@@ -51,7 +51,7 @@ function Footer() {
             <p className="Footer-text">Job Find Labour</p>
 
             <div className="social-icons">
-               <div className="icon1"><RiFacebookFill /></div>
+               <div className="icon0"><RiFacebookFill /></div>
                <div className="icon2"><TfiInstagram /></div>
                <div className="icon3"><CiTwitter /></div>
                <div className="icon4"><FaGithub /></div>
