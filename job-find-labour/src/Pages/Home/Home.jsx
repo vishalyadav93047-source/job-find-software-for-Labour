@@ -9,6 +9,7 @@ import SearchBar from '../../Components/SearchBar/SearchBar'
 import HowItWorks from '../../Components/HowItWork/HowitWork'
 import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import Chooseus from '../../Components/Chooseus/Chooseus'
+import Stats from '../../Components/Stats/Stats'
 
 
 
@@ -25,6 +26,7 @@ function Home() {
    <PopularWorks/>
    <HowItWorks/>
    <Chooseus/>
+   <Stats/>
    <Footer/>
     </div>
     </>

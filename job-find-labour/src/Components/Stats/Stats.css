@@ -1,0 +1,43 @@
+.stats{
+    width:100%;
+    margin:70px auto;
+    margin-top: 50px;
+    background-color: #1565FF;
+    border-radius:15px;
+    padding:25px 30px;
+    height: 100px;
+    margin-bottom: 90px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#fff;
+}
+
+.icon5{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+}
+
+.box h2{
+    font-size:36px;
+    margin:0;
+}
+
+.box p{
+    margin-top:5px;
+    font-size:18px;
+    color:#f1f1f1;
+}
+
