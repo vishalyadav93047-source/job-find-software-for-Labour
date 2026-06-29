@@ -43,7 +43,7 @@ function Chooseus() {
             </div>
             <div className='Choosetext'>
               <h3>Free Registration</h3>
-              <p>Register for free and apply<br/> unlimited jobd</p>
+              <p>Register for free and apply<br/> unlimited jobs</p>
             </div>
           </div>
 
