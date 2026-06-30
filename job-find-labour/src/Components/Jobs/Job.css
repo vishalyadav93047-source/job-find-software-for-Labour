@@ -6,7 +6,7 @@
 }
 
 .jobs-page{
-    /* width:90%; */
+    width:90%;
     margin:60px auto;
     margin-top: 150px;
     
@@ -29,11 +29,26 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     padding-right: 10px;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
     
     
 }
 
+.job-container ::-webkit-scrollbar{
+    height: 8px;
+    display: none;
+}
+
+.job-container ::-webkit-scrollbar-thumb{
+    background-color: #2563eb;
+    border-radius: 10px;
+}
 .job-card{
+    width: 322px;
+    flex-shrink: 0;
     background:#fff;
     border-radius:12px;
     padding:20px;
