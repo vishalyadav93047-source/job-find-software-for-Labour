@@ -1,7 +1,7 @@
 import "./Job.css";
 
 function Job() {
-  const job = [
+  const jobbs = [
     {
       id: 1,
       title: "Electrician",
@@ -66,7 +66,7 @@ function Job() {
       <h1>Latest Jobs</h1>
 
       <div className="job-container">
-        {jobs.map((job) => (
+        {jobbs.map((job) => (
           <div className="job-card" key={job.id}>
             <h2>{job.title}</h2>
 
