@@ -1,16 +1,15 @@
 import React from 'react'
 import "./Home.css"
-import Login from '../../Components/Login/Login'
-// import Mainnav from '../../Components/Mainnav/Mainnav'
-// import Platform from '../../Components/Platform/Platform'
-// import Scroll from '../../Components/Scroll/Scroll'
-// import Footer from '../../Components/Footer/Footer'
-// import Job from '../../Components/Jobs/job'
-// import SearchBar from '../../Components/SearchBar/SearchBar'
-// import HowItWorks from '../../Components/HowItWork/HowitWork'
-// import PopularWorks from '../../Components/PopularWorks/PopularWorks'
-// import Chooseus from '../../Components/Chooseus/Chooseus'
-// import Stats from '../../Components/Stats/Stats'
+import Platform from '../../Components/Platform/Platform'
+import Scroll from '../../Components/Scroll/Scroll'
+import Job from '../../Components/Jobs/job'
+import SearchBar from '../../Components/SearchBar/SearchBar'
+import HowItWorks from '../../Components/HowItWork/HowitWork'
+import PopularWorks from '../../Components/PopularWorks/PopularWorks'
+import Chooseus from '../../Components/Chooseus/Chooseus'
+import Stats from '../../Components/Stats/Stats'
+import Mainnav from '../../Components/Mainnav/Mainnav'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -19,7 +18,7 @@ function Home() {
     <>
     <div className='hero'>
 
-   {/* <Mainnav/>
+   <Mainnav/>
    <Platform/>
    <SearchBar/>
    <Job/>
@@ -28,10 +27,13 @@ function Home() {
    <HowItWorks/>
    <Chooseus/>
    <Stats/>
-   <Footer/> */}
+  
+  <Footer/>
 
 
-   <Login/>
+
+
+  
     </div>
     </>
   )

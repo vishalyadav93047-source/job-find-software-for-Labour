@@ -3,6 +3,7 @@ import "./Mainnav.css"
 import { FaPhone } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import logoo from "../../assets/logoo.png"
+import { Link, Links } from 'react-router-dom';
 
 function Mainnav() {
   return (
@@ -12,10 +13,10 @@ function Mainnav() {
 
 
       <ul className='ul'>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Jobs</li>
-        <li>Contact</li>
+        <Link to={'/'} style={{color:"black", textDecoration:"none"}}>Home</Link>
+        <Link to={'/About'} style={{color:"black", textDecoration:"none"}}>About</Link>
+        <Link to={'/Jobs'} style={{color:"black", textDecoration:"none"}}>Jobs</Link>
+        <Link to={'/Contact'} style={{color:"black", textDecoration:"none"}}>Contact</Link>
       </ul>
 
       <label className='phone'><FaPhone /></label>

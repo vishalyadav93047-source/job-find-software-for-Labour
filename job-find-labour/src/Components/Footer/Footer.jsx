@@ -43,7 +43,7 @@ function Footer() {
                <li>  </li><br /> */}
             </div>
             <div className="box5">
-               <img src={image} alt="" srcset="" height="220px" width="220px"></img>
+               <img src={image} alt="Footer"  height="220px" width="220px"/>
             </div>
          </div>
          <div className="Footer2">

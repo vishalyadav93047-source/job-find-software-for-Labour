@@ -3,8 +3,6 @@ import "./Login.css";
 
 function Login() {
   const [form, setForm] = useState({
-    name: "",
-    email: "",
     phone: "",
     password: "",
   });
@@ -25,28 +23,11 @@ function Login() {
   return (
     <div className="container">
       <div className="login-box">
+        <div className="icon8">👤</div>
         <h1>Welcome Back</h1>
         <p>Login to continue</p>
 
         <form onSubmit={handleSubmit}>
-
-          <input
-            type="text"
-            name="name"
-            placeholder="Full Name"
-            value={form.name}
-            onChange={handleChange}
-            required
-          />
-
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            value={form.email}
-            onChange={handleChange}
-            required
-          />
 
           <input
             type="tel"

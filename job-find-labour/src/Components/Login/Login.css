@@ -1,16 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial;
-}
 
 body {
   background:linear-gradient(to bottom, rgb(75, 193, 248), transparent);
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +26,11 @@ body {
 .login-box p {
   color: gray;
   margin: 10px 0 20px;
+}
+
+.icon8 {
+    font-size: 55px;
+    margin-bottom: 10px;
 }
 
 form {
