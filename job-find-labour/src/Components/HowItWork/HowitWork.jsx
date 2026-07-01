@@ -1,6 +1,5 @@
 import "./HowitWork.css";
-import { BsChatLeftTextFill } from "react-icons/bs";
-import { FaUser, FaRegFileAlt } from "react-icons/fa";
+
 
 function HowItWorks() {
   return (

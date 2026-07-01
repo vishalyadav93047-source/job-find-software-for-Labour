@@ -1,7 +1,7 @@
 import "./Job.css";
 
 function Job() {
-  const jobs = [
+  const job = [
     {
       id: 1,
       title: "Electrician",

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [form, setForm] = useState({
@@ -47,11 +48,11 @@ function Login() {
             required
           />
 
-          <button type="submit">Login</button>
+         <button type="submit">Login</button>
         </form>
 
         <span>
-          Don't have account? <a href="/">Sign Up</a>
+          Don't have account? <Link to={'/SignUp'} style={{color:"black", textDecoration:"none"}}><a href="/">Sign Up</a></Link>
         </span>
       </div>
     </div>

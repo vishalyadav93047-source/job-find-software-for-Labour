@@ -1,10 +1,19 @@
 import React from 'react'
+import Footer from '../../Components/Footer/Footer'
+import Mainnav from '../../Components/Mainnav/Mainnav'
+import Chooseus from '../../Components/Chooseus/Chooseus'
 
 function About() {
   return (
-    <div>
-      
-    </div>
+    <>
+    
+
+    <Mainnav/>
+    <Chooseus/>
+    <Footer/>
+
+   
+    </>
   )
 }
 
