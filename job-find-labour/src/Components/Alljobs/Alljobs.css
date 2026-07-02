@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+    
+}
+
+.Alljobs-page{
+    width:90%;
+    margin:60px auto;
+    margin-top: 150px;
+    
+    
+    
+    
+}
+
+.Alljobs-page h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#1e3a8a;
+}
+
+.Alljobs-container{
+    
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-right: 10px;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    
+    
+}
+
+.Alljobs-container ::-webkit-scrollbar{
+    height: 8px;
+    display: none;
+}
+
+.Alljobs-container ::-webkit-scrollbar-thumb{
+    background-color: #2563eb;
+    border-radius: 10px;
+}
+.Alljobs-card{
+    width: 322px;
+    flex-shrink: 0;
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+   
+}
+
+.Alljobs-card:hover{
+    transform:translateY(-5px);
+    /* background-color: rgb(160, 225, 255); */
+    
+}
+
+.Alljobs-card h2{
+    color:#2563eb;
+    margin-bottom:8px;
+}
+
+.Alljobs-card h3{
+    color:#444;
+    margin-bottom:15px;
+}
+
+.Alljobs-card p{
+    margin:8px 0;
+    color:#666;
+}
+
+.Alljobs-card button{
+    margin-top:15px;
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.Alljobs-card button:hover{
+    background:rgb(75, 193, 248);
+    color: black;
+    
+}

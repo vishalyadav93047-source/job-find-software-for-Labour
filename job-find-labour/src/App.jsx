@@ -8,6 +8,7 @@ import Contact from './Pages/Contact/Contact'
 import Mainnav from './Components/Mainnav/Mainnav'
 import Login from './Components/Login/Login'
 import SignUp from './Components/SignUp/SignUp'
+import Jobs from './Pages/Jobs/Jobs'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
        <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
-          <Route path='/Jobs' element={<Job/>}/>
+          <Route path='/Jobs' element={<Jobs/>}/>
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/SignUp' element={<SignUp/>}/>

@@ -29,6 +29,7 @@ function SignUp() {
   };
 
   return (
+  <div className="signuphero">
     <div className="signup-container">
       <div className="signup-card">
 
@@ -90,6 +91,8 @@ function SignUp() {
 
       </div>
     </div>
+
+  </div>
   );
 }
 
