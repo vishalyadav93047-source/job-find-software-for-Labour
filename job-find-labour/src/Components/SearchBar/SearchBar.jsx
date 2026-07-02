@@ -7,7 +7,7 @@ function SearchBar() {
 
       <div className="search-box">
         🔎
-        <input
+        <input className="inputsearch"
           type="text"
           placeholder="Search Jobs, Skills..."
         />

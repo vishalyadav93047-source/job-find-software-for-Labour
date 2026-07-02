@@ -27,7 +27,10 @@ ul {
 .phone:hover{
     color:white ;
 }
+.login{
+     cursor: pointer;
 
+}
 .login:hover{
     color:white ;
 }

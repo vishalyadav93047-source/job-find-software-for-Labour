@@ -15,6 +15,10 @@
    
 }
 
+.inputsearch{
+    margin-top: 18px;
+}
+
 .search-box{
     flex:1;
     height:50px;
@@ -23,6 +27,7 @@
     display:flex;
     align-items:center;
     padding:0 18px;
+   
 }
 
 .icon{

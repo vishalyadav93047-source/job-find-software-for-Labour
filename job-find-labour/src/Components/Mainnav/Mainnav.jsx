@@ -13,14 +13,14 @@ function Mainnav() {
 
 
       <ul className='ul'>
-        <Link to={'/'} style={{color:"black", textDecoration:"none"}}>Home</Link>
-        <Link to={'/About'} style={{color:"black", textDecoration:"none"}}>About</Link>
-        <Link to={'/Jobs'} style={{color:"black", textDecoration:"none"}}>Jobs</Link>
-        <Link to={'/Contact'} style={{color:"black", textDecoration:"none"}}>Contact</Link>
+        <Link to={'/'} style={{color:"black", textDecoration:"none"}}><li>Home</li></Link>
+        <Link to={'/About'} style={{color:"black", textDecoration:"none"}}><li>About</li></Link>
+        <Link to={'/Jobs'} style={{color:"black", textDecoration:"none"}}><li>Jobs</li></Link>
+        <Link to={'/Contact'} style={{color:"black", textDecoration:"none"}}><li>Contact</li></Link>
       </ul>
 
       <label className='phone'><FaPhone /></label>
-      <Link to={'/Login'} style={{color:"black", textDecoration:"none"}} className='login'><FaUser />  LogIn</Link>
+      <Link to={'/Login'} style={{color:"black", textDecoration:"none"}} ><label className='login'><FaUser />  LogIn</label></Link>
 
 
     </nav>

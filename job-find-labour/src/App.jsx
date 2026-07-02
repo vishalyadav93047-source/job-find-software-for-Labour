@@ -9,6 +9,8 @@ import Mainnav from './Components/Mainnav/Mainnav'
 import Login from './Components/Login/Login'
 import SignUp from './Components/SignUp/SignUp'
 import Jobs from './Pages/Jobs/Jobs'
+import JobFinder from './Components/Jobfinder/JobFinder'
+import Alljobs from './Components/Alljobs/Alljobs'
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
           <Route path='/Login' element={<Login/>}/>
           <Route path='/SignUp' element={<SignUp/>}/>
           <Route path='/LogIn' element={<Login/>}/>
+          <Route path='/JobFinder' element={<JobFinder/>}/>
+          <Route path='/Alljobs' element={<Alljobs/>}/>
+
           
         </Routes>
 
