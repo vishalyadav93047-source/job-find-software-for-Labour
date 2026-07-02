@@ -41,6 +41,7 @@
 
 
 .Footer2 {
+    
     height: 200px;
     width: 100%;
     background-color: #002347;
@@ -67,6 +68,7 @@
 
 
 .social-icons {
+    
     display: flex;
     gap: 15px;
     margin-top: 35px;
@@ -82,6 +84,7 @@
 .icon2,
 .icon3,
 .icon4 {
+    cursor: pointer;
     height: 40px;
     width: 40px;
     background: #0f3a4a;

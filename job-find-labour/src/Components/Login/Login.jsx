@@ -52,7 +52,7 @@ function Login() {
         </form>
 
         <span>
-          Don't have account? <Link to={'/SignUp'} style={{color:"black", textDecoration:"none"}}><a href="/">Sign Up</a></Link>
+          Don't have account? <Link to={'/SignUp'} style={{color:"#6d28d9", textDecoration:"none",fontWeight: "bold"}}>Sign Up</Link>
         </span>
       </div>
     </div>

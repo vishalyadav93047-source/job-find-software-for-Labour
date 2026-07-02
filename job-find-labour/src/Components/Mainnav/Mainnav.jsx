@@ -20,7 +20,7 @@ function Mainnav() {
       </ul>
 
       <label className='phone'><FaPhone /></label>
-      <Link to={'/login'} style={{color:"black", textDecoration:"none"}} className='login'><FaUser />  LogIn</Link>
+      <Link to={'/Login'} style={{color:"black", textDecoration:"none"}} className='login'><FaUser />  LogIn</Link>
 
 
     </nav>
