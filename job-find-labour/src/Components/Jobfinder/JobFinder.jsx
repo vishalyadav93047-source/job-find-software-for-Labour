@@ -30,9 +30,10 @@ function JobFinder() {
                 <div className="Jobfinder-card">
 
                     <div className="icon9">👤</div>
-
+                    <div className="jobfindtext">
                     <h1>Enter Deatils</h1>
                     <p>Continue to be a Meamber</p>
+                    </div>
 
                     <form onSubmit={handleSubmit}>
 
@@ -73,7 +74,7 @@ function JobFinder() {
 
 
 
-                        <button>Submit Details</button>
+                        <button className="but">Submit Details</button>
 
                     </form>
 

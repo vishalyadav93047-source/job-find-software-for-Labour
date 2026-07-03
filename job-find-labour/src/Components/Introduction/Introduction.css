@@ -1,0 +1,48 @@
+.introduction{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image1{
+    height: 550px;
+    width: 470px;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: white;
+    
+    
+}
+
+.text1{
+    height: 550px;
+    width: 690px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 10px solid #f8f7f7;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.text1 h1{
+    margin-top: 100px;
+    margin-left: 95px;
+    font-size: 30px;
+}
+
+.text1 h2{
+
+    margin-left: 95px;
+    font-size: 25px;
+}
+.text1 p{
+    margin-left: 95px;
+    margin-right: 65px;
+    margin-top: 20px;
+}
+
+
+

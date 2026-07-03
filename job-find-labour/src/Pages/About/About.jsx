@@ -8,6 +8,7 @@ import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import HowItWorks from '../../Components/HowItWork/HowitWork'
 import Stats from '../../Components/Stats/Stats'
 import Chooseus from '../../Components/Chooseus/Chooseus'
+import Introduction from "../../Components/Introduction/Introduction"
 
 function About() {
   return (
@@ -15,6 +16,7 @@ function About() {
     
   <div className='abouthero'>
     <Mainnav/>
+    <Introduction/>
     <Job/>
     <Scroll/>
     <PopularWorks/>

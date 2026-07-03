@@ -1,4 +1,5 @@
 import "./Alljobs.css"
+import {Link} from "react-router-dom"
 
 function Alljobs() {
   const Alljobbs = [
@@ -74,7 +75,7 @@ function Alljobs() {
             <p>💰 {job.salary}</p>
             <p>🕒 {job.type}</p>
 
-            <button className="Alljobsbutton">Apply Now</button>
+            <Link to={'/JobFinder'} style={{color:"black", textDecoration:"none"  }}><button className="Alljobsbutton">Apply Now</button></Link>
           </div>
         ))}
       </div>

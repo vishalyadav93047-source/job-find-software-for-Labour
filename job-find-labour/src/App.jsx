@@ -11,6 +11,7 @@ import SignUp from './Components/SignUp/SignUp'
 import Jobs from './Pages/Jobs/Jobs'
 import JobFinder from './Components/Jobfinder/JobFinder'
 import Alljobs from './Components/Alljobs/Alljobs'
+import Working from './Components/Workingpage/Working'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path='/LogIn' element={<Login/>}/>
           <Route path='/JobFinder' element={<JobFinder/>}/>
           <Route path='/Alljobs' element={<Alljobs/>}/>
+          <Route path='/Working' element={<Working/>}/>
 
           
         </Routes>
