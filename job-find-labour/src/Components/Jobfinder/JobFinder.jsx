@@ -37,13 +37,25 @@ function JobFinder() {
 
                     <form onSubmit={handleSubmit}>
 
-                        <input
-                            type="text"
+
+                        <select className="Jobfindertypee"
                             name="job"
                             placeholder="Job Type"
                             onChange={handleChange}
                             required
-                        />
+                        >
+                            <option value="">Select Job </option>
+                            <option >Electrician</option>
+                            <option >Plumber</option>
+                            <option >Barber</option>
+                            <option >House Help</option>
+                            <option >Carpenter</option>
+                            <option >Painter</option>
+                            
+                            
+                        </select>
+
+
 
                         <input
                             type="Text"
@@ -66,7 +78,7 @@ function JobFinder() {
                             onChange={handleChange}
                             required
                         >
-                            <option value="">Select Job Type</option>
+                            <option value="">Select Job Time</option>
                             <option value="Full Time">Full Time</option>
                             <option value="Morning">Morning</option>
                             <option value="Evening">Evening</option>
