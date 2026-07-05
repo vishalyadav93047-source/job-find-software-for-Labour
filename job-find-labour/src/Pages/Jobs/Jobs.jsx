@@ -4,9 +4,9 @@ import Footer from '../../Components/Footer/Footer'
 import Mainnav from '../../Components/Mainnav/Mainnav'
 import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import Chooseus from '../../Components/Chooseus/Chooseus'
-import Alljobs from '../../Components/Alljobs/Alljobs'
 import Scroll from '../../Components/Scroll/Scroll'
 import SearchBar from '../../Components/SearchBar/SearchBar'
+import Job from "../../Components/Jobs/Job"
 
 function Jobs() {
   return (
@@ -15,7 +15,7 @@ function Jobs() {
   <div className='jobshero'> 
     <Mainnav/>
     <SearchBar/>
-    <Alljobs/>
+    <Job/>
     <Scroll/>
 
     <PopularWorks/>
