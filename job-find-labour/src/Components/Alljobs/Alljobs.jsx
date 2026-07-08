@@ -8,6 +8,7 @@ const jobs = [
  {
       id: 1,
       title: "Electrician",
+      Name:"Abc",
       location: "Delhi",
       salary: "₹500 / Day",
       type: "Full Time",
@@ -15,6 +16,7 @@ const jobs = [
     {
       id: 2,
       title: "Plumber",
+      Name:"Abc",
       location: "Gurgaon",
       salary: "₹600 / Day",
       type: "Full Time",
@@ -22,6 +24,7 @@ const jobs = [
     {
       id: 3,
       title: "Barber",
+      Name:"Abc",
       location: "Noida",
       salary: "₹300 / Day",
       type: "Part Time",
@@ -29,6 +32,7 @@ const jobs = [
     {
       id: 4,
       title: "Welder",
+      Name:"Abc",
       location: "Faridabad",
       salary: "₹700 / Day",
       type: "Full Time",
@@ -36,6 +40,7 @@ const jobs = [
     {
       id: 5,
       title: "Carpenter",
+      Name:"Abc",
       location: "Jaipur",
       salary: "₹700 / Day",
       type: "Full Time",
@@ -43,6 +48,7 @@ const jobs = [
     {
       id: 6,
       title: "Painter",
+      Name:"Abc",
       location: "Lucknow",
       salary: "₹600 / Day",
       type: "Full Time",
@@ -50,6 +56,7 @@ const jobs = [
     {
       id: 7,
       title: "House Help",
+      Name:"Abc",
       location: "Lucknow",
       salary: "₹400 / Day",
       type: "Full Time",
@@ -57,6 +64,7 @@ const jobs = [
     {
       id: 8,
       title: "Technician",
+      Name:"Abc",
       location: "Lucknow",
       salary: "₹800 / Day",
       type: "Full Time",
