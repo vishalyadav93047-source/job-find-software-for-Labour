@@ -165,13 +165,13 @@ function Alljobs() {
                   </span>
                 </div>
 
-                <h4>{job.company}</h4>
+                <h4>{job.Name}</h4>
 
                 <p>
                   <FaLocationDot /> {job.location}
                 </p>
 
-                <p>{job.desc}</p>
+                {/* <p>{job.desc}</p> */}
 
               </div>
 
