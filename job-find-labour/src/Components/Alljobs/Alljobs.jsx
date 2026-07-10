@@ -8,7 +8,7 @@ const jobs = [
  {
       id: 1,
       title: "Electrician",
-      Name:"Abc",
+      // Name:"Abc",
       location: "Delhi",
       salary: "₹500 / Day",
       type: "Full Time",
