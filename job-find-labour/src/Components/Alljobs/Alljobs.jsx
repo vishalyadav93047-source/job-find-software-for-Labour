@@ -180,7 +180,7 @@ function Alljobs() {
                 <h3>{job.salary}</h3>
 
                 <button>
-                  View Details
+                  View Details 
                 </button>
 
               </div>
