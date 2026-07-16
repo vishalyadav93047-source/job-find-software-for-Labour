@@ -1,0 +1,218 @@
+/* ===========================
+   ALL JOBS DETAILS CSS
+=========================== */
+
+.AlljobsDetail {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px 0;
+}
+
+.AlljobsDetail1 {
+  width: 92%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.AlljobsDetaillist h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* ===========================
+      JOB CARD
+=========================== */
+
+.AlljobsDetailcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+
+  background: #fff;
+  border-radius: 18px;
+  padding: 22px 28px;
+  margin-bottom: 22px;
+
+  border: 1px solid #ececec;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  transition: .35s ease;
+  cursor: pointer;
+}
+
+.AlljobsDetailcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0,0,0,.15);
+  border-color: #0066ff;
+}
+
+/* ===========================
+      IMAGE
+=========================== */
+
+.AlljobsDetailogo {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+
+  background: #eef4ff;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AlljobsDetailogo img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+/* ===========================
+      DETAILS
+=========================== */
+
+.AlljobsDetaildetails {
+  flex: 1;
+}
+
+.AlljobsDetail-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.AlljobsDetaildetails h3 {
+  font-size: 24px;
+  color: #222;
+  font-weight: 700;
+}
+
+.AlljobsDetaildetails h4 {
+  margin: 10px 0;
+  color: #666;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.AlljobsDetaildetails p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #777;
+  font-size: 16px;
+}
+
+/* ===========================
+      BADGE
+=========================== */
+
+.AlljobsDetail-badge {
+  background: linear-gradient(135deg,#0ea5e9,#2563eb);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===========================
+      RIGHT SIDE
+=========================== */
+
+.AlljobsDetail-job-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.AlljobsDetail-job-right h3 {
+  color: #16a34a;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.AlljobsDetail-job-right button {
+  background: linear-gradient(135deg,#2563eb,#0ea5e9);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: .3s;
+}
+
+.AlljobsDetail-job-right button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(37,99,235,.35);
+}
+
+/* ===========================
+      RESPONSIVE
+=========================== */
+
+@media (max-width:900px){
+
+.AlljobsDetailcard{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.AlljobsDetail-top-row{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.AlljobsDetail-job-right{
+    width:100%;
+    align-items:flex-start;
+}
+
+.AlljobsDetail-job-right button{
+    width:100%;
+}
+
+}
+
+@media (max-width:600px){
+
+.AlljobsDetaillist h2{
+    font-size:26px;
+}
+
+.AlljobsDetailcard{
+    padding:18px;
+}
+
+.AlljobsDetailogo{
+    width:75px;
+    height:75px;
+}
+
+.AlljobsDetailogo img{
+    width:55px;
+    height:55px;
+}
+
+.AlljobsDetaildetails h3{
+    font-size:20px;
+}
+
+.AlljobsDetail-job-right h3{
+    font-size:22px;
+}
+
+}

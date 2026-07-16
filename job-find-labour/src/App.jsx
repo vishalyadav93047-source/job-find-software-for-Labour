@@ -12,6 +12,7 @@ import Jobs from './Pages/Jobs/Jobs'
 import JobFinder from './Components/Jobfinder/JobFinder'
 import Alljobs from './Components/Alljobs/Alljobs'
 import Working from './Components/Workingpage/Working'
+import AlljobsDetails from './Components/AlljobsDetails/AlljobsDetails'
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           <Route path='/JobFinder' element={<JobFinder/>}/>
           <Route path='/Alljobs' element={<Alljobs/>}/>
           <Route path='/Working' element={<Working/>}/>
+          <Route path='/jobs/:id' element={<AlljobsDetails/>}/>
+
+  
 
           
         </Routes>

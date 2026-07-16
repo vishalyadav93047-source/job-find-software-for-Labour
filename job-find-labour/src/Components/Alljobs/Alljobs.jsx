@@ -2,84 +2,85 @@ import React from "react";
 import "./Alljobs.css";
 import labour from "../../assets/labour.jpeg"
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 const jobs = [
- {
-      id: 1,
-      title: "Electrician",
-      // Name:"Abc",
-      location: "Delhi",
-      salary: "₹500 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 2,
-      title: "Plumber",
-      Name:"Abc",
-      location: "Gurgaon",
-      salary: "₹600 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 3,
-      title: "Barber",
-      Name:"Abc",
-      location: "Noida",
-      salary: "₹300 / Day",
-      type: "Part Time",
-    },
-    {
-      id: 4,
-      title: "Welder",
-      Name:"Abc",
-      location: "Faridabad",
-      salary: "₹700 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 5,
-      title: "Carpenter",
-      Name:"Abc",
-      location: "Jaipur",
-      salary: "₹700 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 6,
-      title: "Painter",
-      Name:"Abc",
-      location: "Lucknow",
-      salary: "₹600 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 7,
-      title: "House Help",
-      Name:"Abc",
-      location: "Lucknow",
-      salary: "₹400 / Day",
-      type: "Full Time",
-    },
-    {
-      id: 8,
-      title: "Technician",
-      Name:"Abc",
-      location: "Lucknow",
-      salary: "₹800 / Day",
-      type: "Full Time",
-    },
+  {
+    id: 1,
+    title: "Electrician",
+    // Name:"Abc",
+    location: "Delhi",
+    salary: "₹500 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 2,
+    title: "Plumber",
+    Name: "Abc",
+    location: "Gurgaon",
+    salary: "₹600 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 3,
+    title: "Barber",
+    Name: "Abc",
+    location: "Noida",
+    salary: "₹300 / Day",
+    type: "Part Time",
+  },
+  {
+    id: 4,
+    title: "Welder",
+    Name: "Abc",
+    location: "Faridabad",
+    salary: "₹700 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 5,
+    title: "Carpenter",
+    Name: "Abc",
+    location: "Jaipur",
+    salary: "₹700 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 6,
+    title: "Painter",
+    Name: "Abc",
+    location: "Lucknow",
+    salary: "₹600 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 7,
+    title: "House Help",
+    Name: "Abc",
+    location: "Lucknow",
+    salary: "₹400 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 8,
+    title: "Technician",
+    Name: "Abc",
+    location: "Lucknow",
+    salary: "₹800 / Day",
+    type: "Full Time",
+  },
 ];
 
 function Alljobs() {
   return (
     <div className="filter-job-page">
 
-     
+
 
       <div className="filter-main-container">
 
-        
+
 
         <div className="filter-sidebar">
 
@@ -142,7 +143,7 @@ function Alljobs() {
 
         </div>
 
-       
+
 
         <div className="filter-job-list">
 
@@ -179,9 +180,12 @@ function Alljobs() {
 
                 <h3>{job.salary}</h3>
 
-                <button>
-                  View Details 
-                </button>
+                <Link
+                  to={`/jobs/${job.id}`}
+                  style={{ textDecoration: "none" }}
+                >
+                  <button>View Details</button>
+                </Link>
 
               </div>
 
