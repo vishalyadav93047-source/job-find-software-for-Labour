@@ -82,10 +82,13 @@ function AlljobsDetails() {
 
   return (
     <div className="AlljobsDetail">
+
       <div className="AlljobsDetail1">
+
         <div className="AlljobsDetailcard">
 
           <div className="AlljobsDetailogo">
+            
             <img src={labour} alt="Labour" />
           </div>
 
