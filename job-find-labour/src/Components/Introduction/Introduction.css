@@ -45,4 +45,172 @@
 }
 
 
+.Ownerintroduction,
+.Ownerintroduction1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: 0.4s;
+}
+
+.Ownerintroduction:hover,
+.Ownerintroduction1:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
+
+/* Image Section */
+
+.Ownerintroductionimage1,
+.Ownerintroductionimage2{
+    flex: 1;
+    text-align: center;
+}
+
+.Ownerintroductionimage1 h2,
+.Ownerintroductionimage2 h2{
+    font-size: 28px;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.Ownerintroductionimage1 img,
+.Ownerintroductionimage2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    /* border: 6px solid #0d6efd; */
+    box-shadow: 0 8px 25px rgba(13,110,253,0.3);
+    transition: 0.4s;
+}
+
+.Ownerintroductionimage1 img:hover,
+.Ownerintroductionimage2 img:hover{
+    transform: scale(1.05);
+}
+
+/* Text Section */
+
+.Ownerintroductiontext1,
+.Ownertext2{
+    flex: 2;
+}
+
+.Ownerintroductiontext1 p,
+.Ownertext2 p{
+    font-size: 18px;
+    line-height: 1.9;
+    color: #555;
+    text-align: justify;
+}
+
+.Ownerintroductiontext1 h2,
+.Ownertext2 h2{
+    margin-top: 25px;
+    color: #222;
+    font-size: 30px;
+}
+
+.Ownerintroductiontext1 h3,
+.Ownertext2 h3{
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+/* Mobile */
+
+@media(max-width:992px){
+
+.Ownerintroduction,
+.Ownerintroduction1{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.Ownerintroduction1{
+    flex-direction: column-reverse;
+}
+
+.Ownerintroductiontext1 p,
+.Ownertext2 p{
+    text-align: center;
+}
+
+.Ownerintroductionimage1 img,
+.Ownerintroductionimage2 img{
+    width: 220px;
+    height: 220px;
+}
+
+.Ownerintroductionimage1 h2,
+.Ownerintroductionimage2 h2{
+    font-size: 24px;
+}
+
+.Ownerintroductiontext1 h2,
+.Ownertext2 h2{
+    font-size: 26px;
+}
+
+.Ownerintroductiontext1 h3,
+.Ownertext2 h3{
+    font-size: 18px;
+}
+
+}
+
+@media(max-width:576px){
+
+.Ownerintroduction,
+.Ownerintroduction1{
+    width:95%;
+    padding:20px;
+}
+
+.Ownerintroductionimage1 img,
+.Ownerintroductionimage2 img{
+    width:180px;
+    height:180px;
+}
+
+.Ownerintroductiontext1 p,
+.Ownertext2 p{
+    font-size:16px;
+}
+
+.Ownerintroductionimage1 h2,
+.Ownerintroductionimage2 h2{
+    font-size:22px;
+}
+
+.Ownerintroductiontext1 h2,
+.Ownertext2 h2{
+    font-size:22px;
+}
+
+.Ownerintroductiontext1 h3,
+.Ownerrtext2 h3{
+    font-size:17px;
+}
+
+}
+
+
+
+
+
+
+
 
