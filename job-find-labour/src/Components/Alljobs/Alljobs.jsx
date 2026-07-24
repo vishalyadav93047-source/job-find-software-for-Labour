@@ -9,7 +9,7 @@ const jobs = [
   {
     id: 1,
     title: "Electrician",
-    // Name:"Abc",
+    Name: "Abc",
     location: "Delhi",
     salary: "₹500 / Day",
     type: "Full Time",
@@ -65,6 +65,22 @@ const jobs = [
   {
     id: 8,
     title: "Technician",
+    Name: "Abc",
+    location: "Lucknow",
+    salary: "₹800 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 9,
+    title: "AC Technician",
+    Name: "Abc",
+    location: "Lucknow",
+    salary: "₹800 / Day",
+    type: "Full Time",
+  },
+  {
+    id: 10,
+    title: "Driver",
     Name: "Abc",
     location: "Lucknow",
     salary: "₹800 / Day",
