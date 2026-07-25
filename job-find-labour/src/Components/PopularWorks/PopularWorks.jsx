@@ -52,10 +52,10 @@ function PopularWorks() {
           <h4>AC Technician</h4>
         </div>
 
-        {/* <div className="category-card">
-          <p className="icon">🧑‍🍳</p>
-          <h4>Cook</h4>
-        </div> */}
+        <div className="category-card">
+          <p className="icon">💇</p>
+          <h4>Barber</h4>
+        </div>
 
       </div>
     </section>

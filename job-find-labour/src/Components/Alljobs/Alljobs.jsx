@@ -111,11 +111,16 @@ function Alljobs() {
             <label>💼 Job Category</label>
             <select>
               <option>All Categories</option>
-              <option>Construction</option>
-              <option>Factory</option>
-              <option>Driver</option>
-              <option>Cleaner</option>
               <option>Electrician</option>
+              <option>Plumber</option>
+              <option>Barber</option>
+              <option>Welder</option>
+              <option>Carpenter</option>
+              <option>Painter</option>
+              <option>House Help</option>
+              <option>Technician</option>
+              <option>AC Technician</option>
+              <option>Driver</option>
             </select>
           </div>
 
