@@ -31,8 +31,8 @@ function JobFinder() {
 
                     <div className="icon9">👤</div>
                     <div className="jobfindtext">
-                    <h1>Enter Deatils</h1>
-                    <p>Continue to be a Meamber</p>
+                        <h1>Enter Deatils</h1>
+                        <p>Continue to be a Meamber</p>
                     </div>
 
                     <form onSubmit={handleSubmit}>
@@ -45,14 +45,18 @@ function JobFinder() {
                             required
                         >
                             <option value="">Select Job </option>
-                            <option >Electrician</option>
-                            <option >Plumber</option>
-                            <option >Barber</option>
-                            <option >House Help</option>
-                            <option >Carpenter</option>
-                            <option >Painter</option>
-                            
-                            
+                            <option>Electrician</option>
+                            <option>Plumber</option>
+                            <option>Barber</option>
+                            <option>Welder</option>
+                            <option>Carpenter</option>
+                            <option>Painter</option>
+                            <option>House Help</option>
+                            <option>Technician</option>
+                            <option>AC Technician</option>
+                            <option>Driver</option>
+
+
                         </select>
 
 
