@@ -19,7 +19,7 @@ function Mainnav() {
         <Link to={'/Contact'} style={{color:"black", textDecoration:"none"}}><li>Contact</li></Link>
       </ul>
 
-      {/* <label className='phone'><FaPhone /></label> */} 
+      {/* <label className='phone'><FaPhone /></label> */}  
       <Link to={'/Login'} style={{color:"black", textDecoration:"none"}} ><label className='login'><FaUser />  LogIn</label></Link>
 
 
