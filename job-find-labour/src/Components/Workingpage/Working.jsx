@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Working.css"
-import work from "../../assets/work.png"
+import work from "../../assets/Work.jpeg"
 import Mainnav from '../Mainnav/Mainnav'
 import Footer from '../Footer/Footer'
 
