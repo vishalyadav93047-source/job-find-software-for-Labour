@@ -11,7 +11,7 @@ function Working() {
    <Mainnav/>
    <div className='working'>
 
-    <img src={work} alt="work"  height="600px" width="60%"/>
+    <img src={work} alt="work"   height="600px" width="60%"/>
 
    </div>
    <Footer/>
