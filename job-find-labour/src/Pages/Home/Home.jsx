@@ -10,6 +10,7 @@ import Stats from '../../Components/Stats/Stats'
 import Footer from '../../Components/Footer/Footer'
 import HowItWorks from '../../Components/HowItWork/HowitWork'
 import Chooseus from '../../Components/Chooseus/Chooseus'
+import Features from '../../Components/Featuress/Features'
 
 
 
@@ -23,6 +24,7 @@ function Home() {
    <Mainnav/>
    <Platform/>
    <SearchBar/>
+   <Features/>
    <Job/>
    <Scroll/>
    <PopularWorks/>
