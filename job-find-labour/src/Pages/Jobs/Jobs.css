@@ -5,3 +5,23 @@
   padding-top: 20px;
   
 }
+
+.jobimage{
+  margin-top: -30px;
+}
+
+
+.jobimage h1{
+  margin-top: -250px;
+  margin-left: 40px;
+  font-size: 35px;
+}
+
+
+.jobimage p{
+  margin-left: 40px;
+}
+
+/* .jobsearchp{
+  margin-top: -129px;
+} */
