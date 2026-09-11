@@ -36,6 +36,46 @@
   transition: 0.3s;
 }
 
+.category-card:nth-child(1) {
+  background: #fffaf0; /* Electrician */
+}
+
+.category-card:nth-child(2) {
+  background: #f0f9ff; /* Plumber */
+}
+
+.category-card:nth-child(3) {
+  background: #fff5f2; /* Mason */
+}
+
+.category-card:nth-child(4) {
+  background: #fff2f8; /* Painter */
+}
+
+.category-card:nth-child(5) {
+  background: #fff9ef; /* Carpenter */
+}
+
+.category-card:nth-child(6) {
+  background: #f5f2ff; /* Welder */
+}
+
+.category-card:nth-child(7) {
+  background: #f1fbf3; /* House Help */
+}
+
+.category-card:nth-child(8) {
+  background: #f1f8ff; /* Driver */
+}
+
+.category-card:nth-child(9) {
+  background: #effcfb; /* AC Technician */
+}
+
+.category-card:nth-child(10) {
+  background: #fff5f2; /* Baby Care */
+}
+
 .category-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);

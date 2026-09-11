@@ -4,3 +4,11 @@
   background-image: linear-gradient(to bottom, rgb(92, 200, 251), transparent);
   padding-top: 20px;
 }
+
+.heroSearch{
+  margin-top: -120px;
+}
+
+.herojob{
+  margin-top: -60px;
+}

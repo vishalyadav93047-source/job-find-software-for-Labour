@@ -27,7 +27,7 @@ function Chooseus() {
             </div>
           </div>
 
-          <div className='Choose1'>
+          <div className='Choose2'>
             <div className='icon1'>
               🔍
             </div>
@@ -37,7 +37,7 @@ function Chooseus() {
             </div>
           </div>
 
-          <div className='Choose1'>
+          <div className='Choose3'>
             <div className='icon1'>
               📄
             </div>

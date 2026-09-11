@@ -23,9 +23,17 @@ function Home() {
 <div className='hero'>
    <Mainnav/>
    <Platform/>
+
+   <div className='heroSearch'>
    <SearchBar/>
+   </div>
+
    <Features/>
+
+   <div className='herojob'>
    <Job/>
+   </div>
+
    <Scroll/>
    <PopularWorks/>
    <HowItWorks/>

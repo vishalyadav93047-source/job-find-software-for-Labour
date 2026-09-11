@@ -37,6 +37,54 @@
     
 }
 
+.scroll2:nth-child(1) {
+  background: #FFF3D6; /* Electrician - Light Yellow */
+}
+
+.scroll2:nth-child(2) {
+  background: #E0F2FE; /* Plumber - Light Sky Blue */
+}
+
+.scroll2:nth-child(3) {
+  background: #FCE7E7; /* Mason - Light Red */
+}
+
+.scroll2:nth-child(4) {
+  background: #FCE7F3; /* Painter - Light Pink */
+}
+
+.scroll2:nth-child(5) {
+  background: #FEF0D5; /* Carpenter - Light Orange */
+}
+
+.scroll2:nth-child(6) {
+  background: #EDE9FE; /* Welder - Light Purple */
+}
+
+.scroll2:nth-child(7) {
+  background: #DCFCE7; /* House Help - Light Green */
+}
+
+.scroll2:nth-child(8) {
+  background: #E0F2FE; /* Driver - Sky Blue */
+}
+
+.scroll2:nth-child(9) {
+  background: #CCFBF1; /* AC Technician - Light Teal */
+}
+
+.scroll2:nth-child(10) {
+  background: #FFE4E6; /* Baby Care - Soft Rose */
+}
+
+.scroll2:nth-child(11) {
+  background: #FEF0D5; /* Carpenter - Light Orange */
+}
+
+.scroll2:nth-child(12) {
+  background: #FCE7F3; /* Painter - Light Pink */
+}
+
 
 
 
