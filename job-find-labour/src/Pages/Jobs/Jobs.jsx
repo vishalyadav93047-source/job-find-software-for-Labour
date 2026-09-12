@@ -13,33 +13,35 @@ import jobimage from "../../assets/job.jpeg"
 function Jobs() {
   return (
     <>
-   
-  <div className='jobshero'> 
 
-    <Mainnav/>
+      <div className='jobshero'>
 
-<div className="jobimage">
-    <img src={jobimage} alt="imagepro" height="300px" width="100%"/>
+        <Mainnav />
 
-    <h1>Find the Right job<br/>for <span>Your Skills </span></h1>
-    <p>Connecting skilled workers with the right opportunities </p>
-</div>
-    
-    <div className="jobsearchp">
-    <SearchBar/>
-    </div>
+        <div className="jobimage">
+          <img src={jobimage} alt="imagepro" height="350px" width="100%" />
 
-    <Job/>
-    <Scroll/>
+          <h1>Find the Right job<span>for Your Skills </span></h1>
+          <p>Connecting skilled workers with the right opportunities </p>
+        </div>
 
-    <PopularWorks/>
-    <Chooseus/>
-    <Footer/>
+        <div className="jobsearchp">
+          <SearchBar />
+        </div>
 
-  </div>
-    
+      <div className="Alljobpagemain">
+        <Job />
+        <Scroll />
 
-    
+        <PopularWorks />
+        <Chooseus />
+        <Footer />
+      </div>
+
+      </div>
+
+
+
     </>
   )
 }

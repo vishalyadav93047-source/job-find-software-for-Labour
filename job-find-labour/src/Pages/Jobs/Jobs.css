@@ -6,22 +6,181 @@
   
 }
 
-.jobimage{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* HERO SECTION */
+
+.jobimage {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
   margin-top: -30px;
+  border-radius: 15px;
+}
+
+.jobimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(1.05) saturate(1.05);
+}
+
+.jobimage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(225, 246, 255, 0.94) 0%,
+    rgba(225, 246, 255, 0.72) 35%,
+    rgba(225, 246, 255, 0.15) 70%,
+    rgba(0, 116, 217, 0.08) 100%
+  );
+  pointer-events: none;
+}
+
+.jobimage h1 {
+  position: absolute;
+  z-index: 2;
+  top: 105px;
+  left: 8%;
+  width: 520px;
+
+  font-size: 48px;
+  line-height: 1.15;
+  font-weight: 800;
+  color: #092c5c;
+  letter-spacing: -1px;
+}
+
+.jobimage h1 span {
+  display: block;
+  color: #087bea;
+}
+
+.jobimage p {
+  position: absolute;
+  z-index: 2;
+  top: 225px;
+  left: 8%;
+
+  font-size: 18px;
+  color: #52677e;
+  font-weight: 500;
 }
 
 
-.jobimage h1{
-  margin-top: -250px;
-  margin-left: 40px;
-  font-size: 35px;
+/* SEARCH BAR */
+
+.jobsearchp {
+  width: 90%;
+  max-width: 1380px;
+  margin: -42px auto 0;
+  position: relative;
+  z-index: 5;
+  margin-top: -90px;
+}
+
+.jobsearchp > * {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 22px;
+  padding: 12px;
+  box-shadow: 0 12px 35px rgba(29, 106, 168, 0.18);
+}
+
+.Alljobpagemain{
+  margin-top: -80px;
 }
 
 
-.jobimage p{
-  margin-left: 40px;
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .jobimage {
+    height: 380px;
+  }
+
+  .jobimage h1 {
+    left: 6%;
+    font-size: 42px;
+    width: 450px;
+  }
+
+  .jobimage p {
+    left: 6%;
+  }
+
+  .jobsearchp {
+    width: 94%;
+  }
 }
 
-/* .jobsearchp{
-  margin-top: -129px;
-} */
+
+@media (max-width: 768px) {
+  .jobimage {
+    height: 350px;
+  }
+
+  .jobimage h1 {
+    top: 90px;
+    left: 6%;
+    width: 400px;
+    font-size: 36px;
+  }
+
+  .jobimage p {
+    top: 195px;
+    left: 6%;
+    font-size: 16px;
+  }
+
+  .jobsearchp {
+    margin-top: -35px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .jobimage {
+    height: 390px;
+  }
+
+  .jobimage img {
+    object-position: center;
+  }
+
+  .jobimage h1 {
+    top: 80px;
+    left: 7%;
+    width: 85%;
+    font-size: 34px;
+    line-height: 1.12;
+  }
+
+  .jobimage p {
+    top: 185px;
+    left: 7%;
+    width: 85%;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .jobsearchp {
+    width: 92%;
+    margin-top: -30px;
+  }
+
+  .jobsearchp > * {
+    border-radius: 18px;
+    padding: 8px;
+  }
+}

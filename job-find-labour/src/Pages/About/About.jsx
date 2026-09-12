@@ -2,7 +2,7 @@ import "./About.css"
 import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Mainnav from '../../Components/Mainnav/Mainnav'
-import Job from '../../Components/Jobs/job'
+// import Job from '../../Components/Jobs/job'
 import Scroll from '../../Components/Scroll/Scroll'
 import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import HowItWorks from '../../Components/HowItWork/HowitWork'
@@ -17,7 +17,7 @@ function About() {
   <div className='abouthero'>
     <Mainnav/>
     <Introduction/>
-    <Job/>
+    {/* <Job/> */}
     <Scroll/>
     <PopularWorks/>
     <HowItWorks/>
