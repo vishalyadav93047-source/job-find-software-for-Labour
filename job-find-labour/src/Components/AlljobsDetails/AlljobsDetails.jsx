@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { useParams } from "react-router-dom";
 
 const jobs = [
-   {
+  {
     id: 1,
     title: "Electrician",
     Name: "Abc",
@@ -104,7 +104,7 @@ function AlljobsDetails() {
         <div className="AlljobsDetailcard">
 
           <div className="AlljobsDetailogo">
-            
+
             <img src={labour} alt="Labour" />
           </div>
 

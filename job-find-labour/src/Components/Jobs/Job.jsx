@@ -1,5 +1,5 @@
 import "./Job.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 function Job() {
@@ -60,7 +60,7 @@ function Job() {
       salary: "₹19,000/month",
       type: "Full Time",
     },
-    
+
   ];
 
   return (
@@ -76,7 +76,7 @@ function Job() {
             <p>💰 {job.salary}</p>
             <p>🕒 {job.type}</p>
 
-            <Link to={'/JobFinder'} style={{color:"black", textDecoration:"none"  }}><button className="jobbutton">Apply Now</button></Link>
+            <Link to={'/JobFinder'} style={{ color: "black", textDecoration: "none" }}><button className="jobbutton">Apply Now</button></Link>
           </div>
         ))}
       </div>
