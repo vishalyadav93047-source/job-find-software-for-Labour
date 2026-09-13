@@ -6,8 +6,9 @@ import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import Chooseus from '../../Components/Chooseus/Chooseus'
 import Scroll from '../../Components/Scroll/Scroll'
 import SearchBar from '../../Components/SearchBar/SearchBar'
-import Job from "../../Components/Jobs/job"
+ 
 import jobimage from "../../assets/job.jpeg"
+import Job from "../../Components/Jobs/Job"
 
 
 function Jobs() {
@@ -30,7 +31,7 @@ function Jobs() {
         </div>
 
       <div className="Alljobpagemain">
-        <Job />
+        <Job/>
         <Scroll />
 
         <PopularWorks />
