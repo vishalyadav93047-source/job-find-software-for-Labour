@@ -21,7 +21,10 @@ function Home() {
     <>
     
 <div className='hero'>
+  <div className='HomeMainnav'>
    <Mainnav/>
+   </div>
+
    <Platform/>
 
    <div className='heroSearch'>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import { Link } from "react-router-dom";
+import Mainnav from "../Mainnav/Mainnav";
 
 function SignUp() {
   const [form, setForm] = useState({
@@ -30,70 +31,74 @@ function SignUp() {
   };
 
   return (
-  <div className="signuphero">
-    <div className="signup-container">
-      <div className="signup-card">
+    <>
 
-        <div className="icon7">👤</div>
+      <div className="signuphero">
+        <Mainnav />
+        <div className="signup-container">
+          <div className="signup-card">
 
-        <h1>Create Account</h1>
-        <p>Sign up to continue</p>
+            <div className="icon7">👤</div>
 
-        <form onSubmit={handleSubmit}>
+            <h1>Create Account</h1>
+            <p>Sign up to continue</p>
 
-          <input
-            type="text"
-            name="name"
-            placeholder="Full Name"
-            onChange={handleChange}
-            required
-          />
+            <form onSubmit={handleSubmit}>
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            onChange={handleChange}
-            required
-          />
+              <input
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                onChange={handleChange}
+                required
+              />
 
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Phone Number"
-            onChange={handleChange}
-            required
-          />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                onChange={handleChange}
+                required
+              />
 
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            onChange={handleChange}
-            required
-          />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone Number"
+                onChange={handleChange}
+                required
+              />
 
-          <input
-            type="password"
-            name="confirmPassword"
-            placeholder="Confirm Password"
-            onChange={handleChange}
-            required
-          />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                onChange={handleChange}
+                required
+              />
 
-          <button>Create Account</button>
+              <input
+                type="password"
+                name="confirmPassword"
+                placeholder="Confirm Password"
+                onChange={handleChange}
+                required
+              />
 
-        </form>
+              <button>Create Account</button>
 
-        <span>
-          Already have account?
-          <Link to={'/LogIn'} style={{color:"#6d28d9", textDecoration:"none", fontWeight: "bold"}} className='login'> LogIn </Link>
-        </span>
+            </form>
+
+            <span>
+              Already have account?
+              <Link to={'/LogIn'} style={{ color: "#6d28d9", textDecoration: "none", fontWeight: "bold" }} className='login'> LogIn </Link>
+            </span>
+
+          </div>
+        </div>
 
       </div>
-    </div>
-
-  </div>
+    </>
   );
 }
 

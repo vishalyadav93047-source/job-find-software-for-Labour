@@ -6,9 +6,10 @@ import PopularWorks from '../../Components/PopularWorks/PopularWorks'
 import Chooseus from '../../Components/Chooseus/Chooseus'
 import Scroll from '../../Components/Scroll/Scroll'
 import SearchBar from '../../Components/SearchBar/SearchBar'
- 
+
 import jobimage from "../../assets/job.jpeg"
-import Job from "../../Components/Jobs/Job"
+import Job from "../../Components/Jobs/job"
+
 
 
 function Jobs() {
@@ -17,7 +18,10 @@ function Jobs() {
 
       <div className='jobshero'>
 
-        <Mainnav />
+
+        <div className='JobMainnav'>
+          <Mainnav />
+        </div>
 
         <div className="jobimage">
           <img src={jobimage} alt="imagepro" height="350px" width="100%" />
@@ -30,14 +34,14 @@ function Jobs() {
           <SearchBar />
         </div>
 
-      <div className="Alljobpagemain">
-        <Job/>
-        <Scroll />
+        <div className="Alljobpagemain">
+          <Job />
+          <Scroll />
 
-        <PopularWorks />
-        <Chooseus />
-        <Footer />
-      </div>
+          <PopularWorks />
+          <Chooseus />
+          <Footer />
+        </div>
 
       </div>
 

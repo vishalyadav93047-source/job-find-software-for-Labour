@@ -2,7 +2,7 @@
     height: 100vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgb(92, 200, 251), transparent);
-  padding-top: 20px;
+  /* padding-top: 10px; */
   
 }
 
@@ -26,6 +26,10 @@
    
   border-radius: 15px;
   
+}
+
+.JobMainnav{
+  margin-bottom: 20px;
 }
 
 .jobimage img {

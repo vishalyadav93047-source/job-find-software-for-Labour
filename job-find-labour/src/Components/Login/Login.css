@@ -1,9 +1,13 @@
-.container {
+.container1{
   height: 100vh;
+   background:linear-gradient(to bottom, rgb(75, 193, 248), transparent);
+}
+.container {
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(to bottom, rgb(75, 193, 248), transparent);
+ 
 }
 
 .login-box {
